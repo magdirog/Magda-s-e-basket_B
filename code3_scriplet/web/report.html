@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div>
+            <h1>www Project3</h1>
+            <h2>Report</h3>
+            <p>
+            <p>
+                The basic functionality of the e-basket application had to be done </br>
+                using only jsp without servlet.</br>
+                
+                The interface is a table where the user has to enter the desired quantity</br> 
+                of 3 items,coffe,sugar and water in order to get the total amount of the price</br>
+                to be paid.</br>
+                
+                The whole implementation of the application is done in a jsp file</br>
+                using an html form where a table is created and jsp commands are </br>
+                embedded in the correct position of the table</br></br>
+                </p>
+                <p>
+                In this implementation of my e-basket application i have used</br>
+                cookies.</br>
+                I use a cookie for every one of the three user's inputs for the</br>
+                quantity of each of the three items.</br></br>
+                So i used a cookie for the quantity of the coffe the user enters,one</br>
+                for the quantity of sugar,and one for the quantity of water.</br></br>
+                
+                So the user fills the form and hits the submit button.</br>
+                If the user closes the browser and then opens it again in no more</br>
+                than 5 fives,in the</br>
+                quantity field of the form for every item, will be the user's </br>
+                last choice entered.</br>
+                So the first thing i do in my jsp is to get the cookies.</br>
+                If the cookies are not null i put their value inside the form.</br>
+                
+                I set my cookies when the user has already filled the form and hitted the</br>
+                submit button.</br>
+                The max age of my cookies are 5 minutes.
+                </br></br>
+                
+                In my implementation i have code for the form-table to be appeared in the</br>
+                page of the browser if the user hasn't entered anything yet</br>
+                (e.g request.getParameter("qcafe")==null </br>
+                where the variable qcafe has the quantity of coffee the user has entered.)</br>
+                In this situation the form-table is appeared empty or with the values of the</br>
+                quantity-cookies.</br></br>
+                
+                I also have code for the form to be appeared in the</br>
+                page of the browser if the user has entered data and submitted the form</br>
+                where the form has the desired result in the right positions of the table.</br></br>
+          
+                
+                </p>
+               I also parse the the price values from an xml file.</br>
+               For the parsing i read from a pdf that i found in web in the </br>
+               in 
+               <a href="http://java.sun.com/developer/Books/javaserverpages/ProJSP/Chap12.pdf" target="_blank">HERE</a>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            
+        </div>
+    </body>
+</html>

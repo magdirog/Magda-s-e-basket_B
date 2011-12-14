@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : parser.xml
+    Created on : December 11, 2011, 11:43 PM
+    Author     : magda
+    Description:
+        Purpose of the document follows.
+-->
+
+<list>
+    <cafe>18.50</cafe>
+    <sugar>6.95</sugar>  
+    <water>1.29</water>
+</list>
